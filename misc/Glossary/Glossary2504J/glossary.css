@@ -1,0 +1,44 @@
+/* CSS for Glossary component */
+
+div#glossary {
+	text-align: center;
+}
+
+#glossary label {
+	width: 25%;
+	display: block;
+	padding-top: 5px;
+	float: left;
+	clear: left;
+}
+
+#glossary input.inputbox, #glossary textarea {
+	width: 70%;
+	display: block;
+	float: left;
+}
+
+#glossary .button {
+	display: block;
+	float: left;
+	margin: 10px;
+}
+
+#glossary .clear {
+	clear: left;
+}
+
+div.glossaryalphabet {
+	font-size: 14px;
+	font-weight: bold;
+	padding: 15px 0;
+	clear: left;
+}
+
+div#glossarysearch {
+	padding: 10px;
+}
+
+div#glossarycredit {
+	margin: 10px 20px 40px 20px;
+}

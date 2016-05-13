@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/lexicon/!svn/ver/13/code/trunk/administrator/components/com_lexicon
+END
+uninstall.lexicon.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/lexicon/!svn/ver/14/code/trunk/administrator/components/com_lexicon/uninstall.lexicon.php
+END
+lexicon.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/lexicon/!svn/ver/14/code/trunk/administrator/components/com_lexicon/lexicon.xml
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/lexicon/!svn/ver/13/code/trunk/administrator/components/com_lexicon/license.txt
+END
+admin.lexicon.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/lexicon/!svn/ver/14/code/trunk/administrator/components/com_lexicon/admin.lexicon.html.php
+END
+toolbar.lexicon.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/lexicon/!svn/ver/14/code/trunk/administrator/components/com_lexicon/toolbar.lexicon.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/lexicon/!svn/ver/10/code/trunk/administrator/components/com_lexicon/index.html
+END
+class.lexicon.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/lexicon/!svn/ver/14/code/trunk/administrator/components/com_lexicon/class.lexicon.php
+END
+config.lexicon.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/lexicon/!svn/ver/13/code/trunk/administrator/components/com_lexicon/config.lexicon.php
+END
+toolbar.lexicon.html.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/lexicon/!svn/ver/14/code/trunk/administrator/components/com_lexicon/toolbar.lexicon.html.php
+END
+install.lexicon.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/lexicon/!svn/ver/14/code/trunk/administrator/components/com_lexicon/install.lexicon.php
+END
+admin.lexicon.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/lexicon/!svn/ver/14/code/trunk/administrator/components/com_lexicon/admin.lexicon.php
+END

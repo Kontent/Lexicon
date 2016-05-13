@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id$ -->
+<install version="1.5" type="plugin" group="content">
+	<name>Content - Lexicon</name>
+	<author>Rob Schley</author>
+	<copyright>Copyright (C) 2008 Rob Schley. All rights reserved.</copyright>
+	<creationDate>December 2008</creationDate>
+	<license>GNU General Public License</license>
+	<authorEmail>rob.schley@webimagery.net</authorEmail>
+	<authorUrl>http://webimagery.net/</authorUrl>
+	<version>1.0.0 Alpha</version>
+	<description>Lexicon Content Plugin</description>
+
+	<files>
+		<folder>lexicon</folder>
+	
+		<file plugin="lexicon">lexicon.php</file>
+		<file>lexicon.xml</file>
+	</files>
+
+	<params />
+</install>

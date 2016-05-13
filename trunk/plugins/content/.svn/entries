@@ -1,0 +1,67 @@
+8
+
+dir
+13
+http://joomlacode.org/svn/lexicon/code/trunk/plugins/content
+http://joomlacode.org/svn/lexicon
+
+
+
+2008-05-20T18:52:05.944716Z
+11
+louis
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9ee33232-844d-0410-8202-b45fb6a54c77
+
+lexicon.xml
+file
+
+
+
+
+2008-05-20T21:54:50.000000Z
+dbcbf1ff5a59f788285707c8ce247e0d
+2008-05-20T18:52:05.944716Z
+11
+louis
+
+lexicon
+dir
+
+lexicon.php
+file
+
+
+
+
+2008-05-20T21:54:50.000000Z
+e2097172cb32aaa1eebd1cdaac9ee1d0
+2008-05-20T18:52:05.944716Z
+11
+louis
+
+lexicon.js
+file
+
+
+
+
+2008-05-20T21:54:50.000000Z
+923f698e1cf2591caef3b3f2e78df094
+2008-05-20T18:52:05.944716Z
+11
+louis
+

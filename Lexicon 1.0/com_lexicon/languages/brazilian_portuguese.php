@@ -1,0 +1,95 @@
+<?php
+/**
+ * Language file
+ *
+ * Based on Lexicon 2.01 by Martin Brampton modified by RolandD of www.csvimproved.com
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ *
+ * @package Lexicon
+ * @author Granholm Hosting
+ * @link http://www.granholmhosting.com
+ * @link http://www.csvimproved.com
+ * @copyright Copyright (C) 2008 granholmhosting.com
+ * @version $Id: brazilian_portuguese.php 184 2008-04-06 08:29:27Z Roland $
+ */
+
+
+// Header language lexicons
+DEFINE("_LEXICON_TITLE","Glossário");
+DEFINE("_LEXICON_SELECT","Favor selecionar uma letra para ver os termos.");
+DEFINE("_LEXICON_BEFOREENTRIES","Há");
+DEFINE("_LEXICON_AFTERENTRIES","termos neste glossário.");
+DEFINE("_LEXICON_PAGES","Páginas:");
+DEFINE("_LEXICON_ONLYREGISTERED","Somente usuários registrados podem enviar termos.<br />Favor logar e registrar.");
+
+// LEXICON language lexicons
+DEFINE("_LEXICON_TERM","Termo");
+DEFINE("_LEXICON_TERMS","Termos");
+DEFINE("_LEXICON_AUTHOR","Autor");
+DEFINE("_LEXICON_LEXICON","Glossário");
+DEFINE("_LEXICON_FROM","De");
+DEFINE("_LEXICON_LEXICON","Definição");
+DEFINE("_LEXICON_SEARCH","Buscar");
+DEFINE("_LEXICON_ALL","Todos");
+DEFINE("_LEXICON_OTHER","Outros");
+DEFINE("_LEXICON_NEW","Novo");
+DEFINE("_LEXICON_SIGNEDON","Criado");
+DEFINE("_LEXICON_ADMINSCOMMENT","Comentário");
+DEFINE("_LEXICON_VIEW","Vizualizar glossário");
+DEFINE("_LEXICON_ENTRY","Definição");
+DEFINE("_LEXICON_NAME","Termo");
+DEFINE("_LEXICON_SUBMIT","Enviar termo");
+
+// Form language lexicons
+DEFINE("_LEXICON_VALIDATE","Favor colocar ao menos seu nome, o termo, definição e categoria.");
+DEFINE("_LEXICON_ENTERNAME","Seu nome:");
+DEFINE("_LEXICON_ENTERMAIL","Seu email:");
+DEFINE("_LEXICON_ENTERPAGE","Sua página na web:");
+DEFINE("_LEXICON_ENTERCOMMENT","Seu comentário:");
+DEFINE("_LEXICON_ENTERLOCA","De onde você é:");
+DEFINE("_LEXICON_ENTERTERM","O termo:");
+DEFINE("_LEXICON_ENTERLEXICON","Definição:");
+DEFINE("_LEXICON_SUBMITFORM","Enviar");
+DEFINE("_LEXICON_SENDFORM","Enviar");
+DEFINE("_LEXICON_CLEARFORM","Limpar");
+
+// Save language lexicons
+DEFINE("_LEXICON_SAVED","Entrada salva no glossário.");
+
+// Admin language lexicons
+DEFINE("_LEXICON_DELENTRY","Deletar termo");
+DEFINE("_LEXICON_DELMESSAGE","O termo foi removido.");
+DEFINE("_LEXICON_DEFVALIDATE","Favor colocar uma definição.");
+DEFINE("_LEXICON_COMMENTSAVED","Seu comentário foi salvo.");
+DEFINE("_LEXICON_COMMENTDELETED","Seu comentário foi deletado.");
+DEFINE("_LEXICON_ADMIN","Admin");
+DEFINE("_LEXICON_AEDIT","Editar");
+DEFINE("_LEXICON_ACOMMENT","Comentário");
+DEFINE("_LEXICON_ACOMMENTDEL","Deletar Comentário");
+DEFINE("_LEXICON_ADELETE","Deletar");
+
+// Email language lexicons
+DEFINE("_LEXICON_ADMINMAILHEADER","Um novo termo no glossário");
+DEFINE("_LEXICON_ADMINMAIL","Olá Admin,\n\nUm novo usuário enviou um novo termo para o glossário em ".JURI::base().":\n");
+DEFINE("_LEXICON_USERMAILHEADER","Muito obrigado pelo seu envio para o glossário.");
+DEFINE("_LEXICON_USERMAIL","Prez. usuário,\n\nAgradecemos o envio para o glossário em ".JURI::base().":\n Ele será revisado e será adicionado ao site assim que possível.\n");
+DEFINE("_LEXICON_MAILFOOTER","Favor não responder a esta mensagem. Ela é gerada automaticamente pelo sistema e tem o propósito de informação apenas.\n");
+
+// update 1.9.0
+DEFINE("_LEXICON_SEARCHSTRING","buscar...");
+DEFINE("_LEXICON_SEARCHBUTTON","GO");
+
+?>

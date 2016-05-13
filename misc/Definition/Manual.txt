@@ -1,0 +1,5 @@
+1. Install component
+2. Install and publish plugin (select image)
+3. Write a term AND publish it
+
+Your ready to go

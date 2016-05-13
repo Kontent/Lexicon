@@ -1,0 +1,20 @@
+				CREATE TABLE IF NOT EXISTS `#__glossary` (
+				`id` int(10) NOT NULL auto_increment,
+				`tletter` char(1) NOT NULL default '',
+				`tterm` varchar(40) NOT NULL default '',
+				`tdefinition` text NOT NULL,
+				`tname` varchar(20) NOT NULL default '',
+				`tloca` varchar(60) default NULL,
+				`tmail` varchar(60) default NULL,
+				`tpage` varchar(150) default NULL,
+				`tdate` datetime default NULL,
+				`tcomment` text,
+				`tedit` enum('y','n') NOT NULL default 'n',
+				`teditdate` datetime default NULL,
+				`published` tinyint(1) NOT NULL default 0,
+				`catid` int(3) NOT NULL default '0',
+				`checked_out` int(11) NOT NULL default 0,
+				PRIMARY KEY  (`id`),
+				UNIQUE KEY `term` (`tterm`),
+				FULLTEXT KEY `tdefinition` (`tdefinition`)
+				) ENGINE=MyISAM;

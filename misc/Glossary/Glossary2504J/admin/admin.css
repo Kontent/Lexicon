@@ -1,0 +1,40 @@
+/* CSS for Glossary component admin */
+
+div label {
+	width: 25%;
+	display: block;
+	margin-top: 5px;
+	padding-right: 10px;
+	float: left;
+	clear: left;
+	text-align: right;
+}
+
+input, select.glossary, span.glossary {
+	margin-top: 5px;
+	text-align: left;
+	display: block;
+	float: left;
+}
+
+th {
+	text-align: left;
+}
+
+.widthspec {
+	width: 70%;
+	display: block;
+	float: left;
+}
+
+.clear {
+	clear: left;
+}
+
+.glossarytitle {
+	width: 50%;
+}
+
+input.glossdefinition {
+	width: 90%;
+}

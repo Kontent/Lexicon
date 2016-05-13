@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.3">
+  <name>Lexicon</name>
+  <creationDate>May 2008</creationDate>
+  <author>PlayShakespeare.com</author>
+  <copyright>This component is released under the GNU/GPL License</copyright>
+  <authorEmail>info@PlayShakespeare.com</authorEmail>
+  <authorUrl>http://www.PlayShakespeare.com</authorUrl>
+  <version>1.0</version>
+  <description>Lexicon is a Joomla! 1.5 component</description>
+  <files>
+    <filename>lexicon.php</filename>
+    <filename>lexicon.html.php</filename>
+    <filename>lexicon.class.php</filename>
+    <filename>images/email.png</filename>
+    <filename>images/homepage.png</filename>
+    <filename>languages/english.php</filename>
+
+	</files>
+  <install>
+    <queries>
+      <query>
+       CREATE TABLE IF NOT EXISTS `#__lexicon` (
+          `id` int(10) NOT NULL auto_increment,
+          `tletter` char(1) NOT NULL default '',
+          `tterm` varchar(40) NOT NULL default '',
+          `tlexicon` text NOT NULL,
+          `tname` varchar(20) NOT NULL default '',
+          `tloca` varchar(60) default NULL,
+          `tmail` varchar(60) default NULL,
+          `tpage` varchar(150) default NULL,
+          `tdate` datetime default NULL,
+          `tcomment` text,
+          `tedit` enum('y','n') NOT NULL default 'n',
+          `teditdate` datetime default NULL,
+          `published` tinyint(1) NOT NULL default '0',
+          `catid` int(3) NOT NULL default '0',
+          `checked_out` int(11) NOT NULL default '0',
+          UNIQUE KEY `term` (`tterm`),
+          PRIMARY KEY  (`id`),
+          FULLTEXT (`tlexicon`)
+        ) TYPE=MyISAM
+      </query>
+    </queries>
+  </install>
+  <uninstall>
+      <queries>
+      </queries>
+  </uninstall>
+    <installfile>install.lexicon.php</installfile>
+    <uninstallfile>uninstall.lexicon.php</uninstallfile>
+  <administration>
+    <menu>Lexicon</menu>
+    <submenu>
+      <menu task="view">View Terms</menu>
+      <menu task="multinew">Add Multiple</menu>
+      <menu task="categories">Categories</menu>
+      <menu task="config">Edit Config</menu>
+    </submenu>
+    <files>
+      <filename>admin.lexicon.php</filename>
+      <filename>admin.lexicon.html.php</filename>
+      <filename>class.lexicon.php</filename>
+      <filename>config.lexicon.php</filename>
+      <filename>install.lexicon.php</filename>
+      <filename>toolbar.lexicon.php</filename>
+      <filename>toolbar.lexicon.html.php</filename>
+      <filename>uninstall.lexicon.php</filename>
+	  <filename>license.txt</filename>
+	  <filename>images/logo.png</filename>
+	  <filename>images/icon.png</filename>
+    </files>
+  </administration>
+</install>

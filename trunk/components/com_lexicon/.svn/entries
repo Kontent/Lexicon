@@ -1,0 +1,82 @@
+8
+
+dir
+13
+http://joomlacode.org/svn/lexicon/code/trunk/components/com_lexicon
+http://joomlacode.org/svn/lexicon
+
+
+
+2008-05-20T18:55:28.258255Z
+12
+louis
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9ee33232-844d-0410-8202-b45fb6a54c77
+
+images
+dir
+
+languages
+dir
+
+lexicon.php
+file
+15
+
+
+
+2008-05-15T09:35:54.000000Z
+8c69121415b54812cac2dc3b4f48c712
+2008-06-15T04:23:03.347622Z
+15
+severdia
+
+index.html
+file
+
+
+
+
+2008-05-20T21:54:51.000000Z
+b256d97fbb697428b7a1286ea33539c0
+2008-05-20T18:44:17.911017Z
+10
+louis
+
+lexicon.html.php
+file
+15
+
+
+
+2008-06-15T05:33:52.000000Z
+904608a1cb1d3d5ddc6c3c7e6b25a4f7
+2008-06-15T04:23:03.347622Z
+15
+severdia
+
+lexicon.class.php
+file
+15
+
+
+
+2008-05-15T09:35:54.000000Z
+32cdb3311ca6a1e1b5497ef4168dcda0
+2008-06-15T04:23:03.347622Z
+15
+severdia
+

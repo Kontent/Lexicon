@@ -1,0 +1,11 @@
+<h3>Tips 1</h3>
+<img src="/demos/MousewheelCustom/moo.png" alt="mooCow" class="Tips1" title="Tips Title :: This is my tip content" />
+ 
+<h3>Tips 2</h3>
+<img src="/demos/MousewheelCustom/moo.png" alt="mooCow" class="Tips2" title="Tips Title :: This is my tip content" />
+ 
+<h3>Tips 3</h3>
+Fixed tooltip: <a href="http://www.mootools.net" onclick="return false;" class="Tips3" title="Mootools official website">Mootools.net</a>
+ 
+<h3>Tips 4</h3>
+Custom className: <a href="http://www.mootools.net" onclick="return false;" class="Tips4" title="Mootools official website">Mootools.net</a>
